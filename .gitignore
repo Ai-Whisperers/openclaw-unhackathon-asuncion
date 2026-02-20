@@ -1,0 +1,44 @@
+# Dependencies
+node_modules/
+package-lock.json
+npm-debug.log
+
+# Environment variables (NEVER COMMIT)
+.env
+.env.local
+.env.*.local
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+.DS_Store
+
+# Logs
+logs/
+*.log
+npm-debug.log*
+
+# Build
+dist/
+build/
+
+# OpenClaw runtime
+.openclaw/
+agents/*/MEMORY.md
+agents/*/.session
+
+# Tests
+coverage/
+.nyc_output/
+
+# OS
+Thumbs.db
+.DS_Store
+
+# Temporary files
+tmp/
+temp/
+*.tmp
